@@ -4,8 +4,8 @@ CardY=85.60;
 CardZ=2.8;
 //A bit bigger broader than in ISO/IEC 7810
 //because of the printer's percularities
-SimX=16;
-SimY=26;
+SimX=17;
+SimY=27;
 SimZ=3;
 difference () {
     translate([CardX/2,CardY/2,1.5])
