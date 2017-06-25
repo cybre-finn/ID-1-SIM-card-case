@@ -28,9 +28,9 @@ difference () {
 
 }
 translate([57,0,0]) {
-    cube([CardX-6, SimY-5, 0.8]);
+    cube([CardX-7, SimY-6, 0.8]);
 }
 translate([57,24,0]) {
-    cube([CardX-6, SimY-5, 0.8]);
+    cube([CardX-7, SimY-6, 0.8]);
 }
 echo(version=version());
