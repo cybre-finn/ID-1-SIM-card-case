@@ -25,6 +25,13 @@ difference () {
         cube([CardX-6, SimY-5, SimZ]);
     translate([3,3,2])
         cube([CardX-6, SimY-5, SimZ]);
+    
+    translate([CardX-SimX-4,29,-4])
+        cube([SimX-6, SimY, 10]);
+    
+    translate([10,29,-4])
+        cube([SimX-6, SimY, 10]);
+
 
 }
 translate([57,0,0]) {
@@ -33,4 +40,3 @@ translate([57,0,0]) {
 translate([57,24,0]) {
     cube([CardX-7, SimY-6, 0.8]);
 }
-echo(version=version());
